@@ -1,0 +1,16 @@
+data:
+  train: data/processed/train.parquet
+  val: data/processed/val.parquet
+  test: data/processed/test.parquet
+  target: Class
+  drop_cols: [Time, Class]
+
+model:
+  registered_name: fraud-lgbm
+  champion_alias: champion
+  threshold: 0.50
+  review_cost: 5.0
+
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  experiment: fraud-detection

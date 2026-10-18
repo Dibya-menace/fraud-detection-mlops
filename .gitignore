@@ -10,3 +10,4 @@ mlartifacts/
 .env
 kaggle.json
 .vscode/
+mlflow.db
