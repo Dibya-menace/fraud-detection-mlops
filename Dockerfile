@@ -11,7 +11,7 @@ COPY requirements-runtime.txt .
 RUN pip install --no-cache-dir -r requirements-runtime.txt
 
 COPY src/ ./src/
-COPY model_export/ ./model_export/
+COPY models/ ./models/
 
 # Hugging Face Spaces runs as a non-root user and expects port 7860
 RUN useradd -m appuser
