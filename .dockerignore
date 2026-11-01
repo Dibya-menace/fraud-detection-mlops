@@ -1,8 +1,11 @@
 .venv
 .git
-mlruns
-notebooks
-data
-tests
 __pycache__
 *.pyc
+.pytest_cache
+mlruns
+data
+notebooks
+tests
+*.ipynb
+.vscode

@@ -10,3 +10,5 @@ mlartifacts/
 kaggle.json
 .vscode/
 mlflow.db
+.pytest_cache/
+*.csv
