@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  HF_SPACE: YOUR_HF_USERNAME/fraud-detection-mlops
+  HF_SPACE: DibyaIsHere554/fraud-detection-mlops
 
 jobs:
   test:
